@@ -1,21 +1,20 @@
 <template>
   <div id="app">
-      <navi-bar></navi-bar>
+    <item-list></item-list>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-import NaviBar from './components/NaviBar'
+import ItemList from './components/ItemList'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    naviBar: NaviBar
+    ItemList
   }
 }
 </script>
 
 <style>
+
 </style>
